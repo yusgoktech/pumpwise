@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assistenza · Pumpwise</title>
+<style>
+  :root { color-scheme: light dark; --bg:#0F1314; --fg:#EEF2F2; --muted:#A8B2B2; --accent:#5CC3CF; --card:#181D1E; }
+  @media (prefers-color-scheme: light) { :root { --bg:#F3F5F5; --fg:#141A1B; --muted:#54605F; --accent:#0B6470; --card:#FFFFFF; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:24px; flex-wrap:wrap; }
+  .brand { font-weight:800; font-size:20px; color:var(--accent); text-decoration:none; }
+  .lang a { color:var(--muted); text-decoration:none; margin-left:12px; }
+  .lang a.active { color:var(--fg); font-weight:600; }
+  h1 { font-size:30px; margin:0 0 4px; }
+  .updated, .note { color:var(--muted); margin:0 0 20px; font-size:14px; }
+  h2 { font-size:19px; color:var(--accent); margin:28px 0 8px; }
+  h3 { font-size:17px; margin:20px 0 4px; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  .cards { display:grid; gap:12px; margin-top:24px; }
+  .card { display:block; background:var(--card); border-radius:14px; padding:18px 20px; text-decoration:none; color:var(--fg); }
+  .card span { display:block; color:var(--muted); font-size:14px; }
+  footer { margin-top:48px; color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <a class="brand" href="index-it.html">Pumpwise</a>
+  <nav class="lang"><a href="index.html" class="" hreflang="en">EN</a><a href="index-es.html" class="" hreflang="es">ES</a><a href="index-de.html" class="" hreflang="de">DE</a><a href="index-fr.html" class="" hreflang="fr">FR</a><a href="index-it.html" class="active" hreflang="it">IT</a><a href="index-pt.html" class="" hreflang="pt">PT</a><a href="index-tr.html" class="" hreflang="tr">TR</a></nav>
+</header>
+<h1>Pumpwise</h1>
+<p>Pumpwise: un registro carburante per iPhone e iPad che fa i conti giusti per auto a benzina e diesel, elettriche e ibride plug-in. Registra rifornimenti, ricariche e spese, guarda il consumo reale e il costo al km e ricevi i promemoria di manutenzione. Nessun account e nessun abbonamento; il registro resta sul tuo dispositivo.</p>
+<div class="cards"><a class="card" href="mailto:yusgoktech@gmail.com"><strong>Assistenza</strong><span>Domande, idee e segnalazioni di errori via e-mail · yusgoktech@gmail.com</span></a><a class="card" href="privacy-it.html"><strong>Informativa sulla privacy</strong></a><a class="card" href="terms-it.html"><strong>Condizioni d’uso</strong></a></div>
+<h2>Domande frequenti</h2>
+<h3>Serve un account? Dove viene salvato il mio registro?</h3>
+<p>Non serve alcun account. Pumpwise non ha un server: i tuoi veicoli, le registrazioni e le foto degli scontrini restano sul tuo iPhone o iPad, e nulla viene sincronizzato tra dispositivi.</p>
+<h3>Come porto qui lo storico da un’altra app?</h3>
+<p>Nell’altra app esporta il registro come file CSV (sono riconosciuti Fuelly, Fuelio, Drivvo, Simply Auto, Spritmonitor, Road Trip MPG e LubeLogger; va bene anche qualsiasi foglio di calcolo con date, letture del contachilometri e quantità). Poi in Pumpwise apri Impostazioni › Importa da un’altra app e scegli il file. Non cambia nulla finché non confermi, e Annulla riporta tutto com’era.</p>
+<h3>Perché il consumo compare solo dopo il secondo pieno?</h3>
+<p>Pumpwise usa il metodo del pieno a pieno: il carburante di tutti i rifornimenti tra due pieni viene diviso per la distanza percorsa tra i due. Per questo servono due pieni. I rifornimenti parziali vengono sommati al pieno successivo; se hai dimenticato di registrare un rifornimento, attiva “Ho dimenticato di registrare un rifornimento prima di questo”: così quell’intervallo viene saltato invece di essere stimato.</p>
+<h3>Come sposto il registro su un nuovo iPhone?</h3>
+<p>Sul vecchio dispositivo: Impostazioni › Backup ed esportazione › Salva un backup (per esempio su iCloud Drive). Sul nuovo dispositivo: installa Pumpwise, tocca “Ripristina un backup o importa” nella prima schermata (oppure Impostazioni › Backup ed esportazione › Ripristina un backup) e scegli il file.</p>
+<h3>Come elimino i miei dati?</h3>
+<p>Impostazioni › Elimina tutti i dati cancella dal dispositivo tutte le registrazioni, le foto e le copie automatiche; eliminare l’app ha lo stesso effetto. I file di backup salvati altrove restano lì, quindi eliminali anche lì.</p>
+
+<footer>© 2026 yusgoktech · <a href="mailto:yusgoktech@gmail.com">yusgoktech@gmail.com</a></footer>
+</main>
+</body>
+</html>

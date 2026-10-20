@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support · Pumpwise</title>
+<style>
+  :root { color-scheme: light dark; --bg:#0F1314; --fg:#EEF2F2; --muted:#A8B2B2; --accent:#5CC3CF; --card:#181D1E; }
+  @media (prefers-color-scheme: light) { :root { --bg:#F3F5F5; --fg:#141A1B; --muted:#54605F; --accent:#0B6470; --card:#FFFFFF; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:24px; flex-wrap:wrap; }
+  .brand { font-weight:800; font-size:20px; color:var(--accent); text-decoration:none; }
+  .lang a { color:var(--muted); text-decoration:none; margin-left:12px; }
+  .lang a.active { color:var(--fg); font-weight:600; }
+  h1 { font-size:30px; margin:0 0 4px; }
+  .updated, .note { color:var(--muted); margin:0 0 20px; font-size:14px; }
+  h2 { font-size:19px; color:var(--accent); margin:28px 0 8px; }
+  h3 { font-size:17px; margin:20px 0 4px; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  .cards { display:grid; gap:12px; margin-top:24px; }
+  .card { display:block; background:var(--card); border-radius:14px; padding:18px 20px; text-decoration:none; color:var(--fg); }
+  .card span { display:block; color:var(--muted); font-size:14px; }
+  footer { margin-top:48px; color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <a class="brand" href="index.html">Pumpwise</a>
+  <nav class="lang"><a href="index.html" class="active" hreflang="en">EN</a><a href="index-es.html" class="" hreflang="es">ES</a><a href="index-de.html" class="" hreflang="de">DE</a><a href="index-fr.html" class="" hreflang="fr">FR</a><a href="index-it.html" class="" hreflang="it">IT</a><a href="index-pt.html" class="" hreflang="pt">PT</a><a href="index-tr.html" class="" hreflang="tr">TR</a></nav>
+</header>
+<h1>Pumpwise</h1>
+<p>Pumpwise: a fuel log for iPhone and iPad that gets the math right for gas and diesel cars, EVs and plug-in hybrids. Log fill-ups, charges and costs, see real consumption and cost per mile, and get service reminders. No account and no subscription; your log stays on your device.</p>
+<div class="cards"><a class="card" href="mailto:yusgoktech@gmail.com"><strong>Support</strong><span>Questions, ideas and bug reports by e-mail · yusgoktech@gmail.com</span></a><a class="card" href="privacy.html"><strong>Privacy policy</strong></a><a class="card" href="terms.html"><strong>Terms of use</strong></a></div>
+<h2>Frequently asked questions</h2>
+<h3>Do I need an account? Where is my log stored?</h3>
+<p>No account is needed. Pumpwise has no server: your vehicles, records and receipt photos stay on your iPhone or iPad, and nothing is synced between devices.</p>
+<h3>How do I bring my history from another app?</h3>
+<p>Export your log as a CSV file in the other app (Fuelly, Fuelio, Drivvo, Simply Auto, Spritmonitor, Road Trip MPG and LubeLogger are recognized; any spreadsheet with dates, odometer readings and amounts works too). Then in Pumpwise open Settings › Import from another app and choose the file. Nothing changes until you confirm, and Undo takes it back.</p>
+<h3>Why does consumption appear only after the second full fill-up?</h3>
+<p>Pumpwise uses the full-to-full method: the fuel of every fill-up between two full tanks is divided by the distance between them. That needs two full fill-ups. Partial fill-ups are added to the next full one; if you forgot to log a fill-up, turn on “I missed recording a fill-up before this one” so that gap is skipped instead of guessed.</p>
+<h3>How do I move my log to a new iPhone?</h3>
+<p>On the old device: Settings › Backup and export › Save a backup (for example to iCloud Drive). On the new device: install Pumpwise, tap “Restore a backup or import” on the first screen (or Settings › Backup and export › Restore a backup) and choose the file.</p>
+<h3>How do I delete my data?</h3>
+<p>Settings › Delete all data removes every record, photo and automatic copy from the device; deleting the app does the same. Backup files you saved elsewhere stay there, so delete them there too.</p>
+
+<footer>© 2026 yusgoktech · <a href="mailto:yusgoktech@gmail.com">yusgoktech@gmail.com</a></footer>
+</main>
+</body>
+</html>
